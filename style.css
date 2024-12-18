@@ -205,6 +205,196 @@ opacity: 0px;
 }
 
 
+.clients-section{
+    width: Fill (1,344px)px;
+height: Hug (484px)px;
+padding: 48px 0px 48px 0px;
+gap: 48px;
+border: 0px 0px 1px 0px;
+opacity: 0px;
+
+
+}
+
+
+
+
+
+.clients{
+    font-family: Bebas Neue;
+font-size: 48px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: -0.01em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+
+.testimonialCard{
+    width: Fixed (288px)px;
+height: Hug (288px)px;
+padding: 24px;
+gap: 16px;
+border-radius: 16px;
+border: 1px ;
+opacity: 0px;
+border: 1px solid #000000;
+margin: 5px 5px 5px 5px;
+cursor: pointer;
+
+}
+
+.container{
+    width: Fill (240px)px;
+    height: Hug (48px)px;
+    gap: 12px;
+    opacity: 0px;
+    
+
+}
+
+.profile>img{
+    width: 48px;
+height: 48px;
+gap: 0px;
+border-radius: 999px ;
+border: 1px ;
+opacity: 0px;
+
+}
+
+.textcontent{
+    width: Fill (180px)px;
+height: Hug (40px)px;
+gap: 0px;
+opacity: 0px;
+margin-left: 10px;
+
+
+
+}
+
+
+.name{
+    width: 180px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.name>p{
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+    
+}
+
+
+.position{
+    width: 180px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.position>p{
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+    
+}
+
+.quotecontainer{
+    width: Fill (240px)px;
+height: Hug (176px)px;
+padding: 0px 0px 8px 0px;
+gap: 12px;
+opacity: 0.8px;
+
+}
+
+.linecontainer{
+    width: Fill (240px)px;
+height: Hug (176px)px;
+padding: 0px 0px 8px 0px;
+gap: 12px;
+opacity: 0.8px;
+display: inline-block;
+margin-top: 19px;
+
+}
+
+.line{
+    width: 0px;
+height: 150px;
+gap: 0px;
+border-radius: 1px 0px 0px 0px;
+border-left: 1px 0px 0px 0px;
+opacity: 0px;
+display: inline-block;
+
+border: 1px solid #000000;
+
+
+}
+.quote{
+    width: 180px;
+height: 168px;
+gap: 0px;
+opacity: 0px;
+display: inline-block;
+
+
+
+
+}
+.quote>p{
+    font-family: Roboto Mono;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-left: 6px;
+
+
+
+}
+
+
+
+
+
+
+
+
+.profile{
+    width: 48px;
+height: 48px;
+gap: 0px;
+border-radius: 999px ;
+border: 1px ;
+opacity: 0px;
+
+}
+.flex{
+    display: flex;
+    
+}
 
 
 
