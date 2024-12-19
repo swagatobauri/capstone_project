@@ -18,6 +18,7 @@ header{
     padding-bottom: 16px;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #FFFFFF;
     align-items: center;
@@ -27,7 +28,7 @@ header{
 .nav-logo-text{
     width: 108px;
 height: 29px;
-gap: 0px;
+
 opacity: 0px;
 font-family: Bebas Neue;
 font-size: 42px;
@@ -41,18 +42,21 @@ color: #000000;
 cursor: pointer;
 margin-left: 43px;
 
+
 }
 .action{
     display: flex;
+    
     margin: auto ;
     margin-right: 4%;
     gap: 32px;
-    width: Hug (362px);
+    min-width: Hug (362px);
     height: Hug (32px);
     cursor: pointer;
 }
 .hero {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     padding: 72px 0;
@@ -87,7 +91,7 @@ margin-left: 43px;
     margin: 0;
   }
 .yellow{
-    color: #e3c012;
+    color: #e6c007;
     font-size: 150px;
 }
 
@@ -132,6 +136,7 @@ text-decoration-skip-ink: none;
     padding-top: 48px;
     padding-bottom: 48px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 48px;
@@ -142,8 +147,6 @@ height: 154px;
 gap: 0px;
 opacity: 0px;
 
-
-opacity: 0px;
 
 }
 .card p{
@@ -191,6 +194,28 @@ img{
     justify-content: space-evenly;
     
 }
+.photos>a{
+    text-decoration: none;
+    font-family: Roboto Mono;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000;
+
+}
+.pro-text{
+    font-family: Roboto Mono;
+font-size: 17px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000;
+}
 
 .sale_item{
 width: 416px;
@@ -198,8 +223,10 @@ height: 277px;
 gap: 0px;
 border: 1px 0px 0px 0px;
 opacity: 0px;
+display: block;
 
 }
+
 .pro{
     text-decoration: none;
 }
