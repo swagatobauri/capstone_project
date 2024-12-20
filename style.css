@@ -8,9 +8,9 @@
 header{
     position: sticky;
     top: 0;          
-    width:
-    Fixed (1,440px);     
-    height: Hug (80px);   
+
+    width:100%;     
+    height: 80px;   
 
     border-bottom: 1px solid #000000;
     
@@ -25,9 +25,22 @@ header{
     
 }
 
+
+
+    
+
+
+.nav{
+    
+    min-width: 440px;
+}
+
+
+
 .nav-logo-text{
     width: 108px;
-height: 29px;
+
+/* height: 29px; */
 
 opacity: 0px;
 font-family: Bebas Neue;
@@ -43,10 +56,11 @@ cursor: pointer;
 margin-left: 43px;
 
 
+
 }
 .action{
     display: flex;
-    
+    flex-shrink: 5;
     margin: auto ;
     margin-right: 4%;
     gap: 32px;
@@ -64,6 +78,9 @@ margin-left: 43px;
     width: 100%;
     max-width: 1344px;
     margin: 0 auto;
+
+    min-width: 440px;
+    
 }
 
 .hero h1 {
@@ -76,10 +93,18 @@ margin-left: 43px;
     letter-spacing: -0.02em;
     color: #000000;
     width: 100%;
+    
 }
 
 .hero-image {
     width: 100%;
+    height: 672px;
+    border-radius: 56px;
+    object-fit: cover;
+}
+.hero-image img {
+    width: 100%;
+    
     height: 672px;
     border-radius: 56px;
     object-fit: cover;
@@ -110,6 +135,7 @@ margin-left: 43px;
     display: flex;
     align-items: center;
     justify-content: center;
+    min-width: 440px;
 
 }
 .about{
@@ -117,6 +143,8 @@ margin-left: 43px;
     width: 900px;
 height: 156px;
 max-width: 900px;
+
+
 
 
 }
@@ -130,6 +158,10 @@ text-align: center;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 
+
+
+text-align: center;
+
 }
 
 .card-section{
@@ -140,7 +172,9 @@ text-decoration-skip-ink: none;
     align-items: center;
     justify-content: center;
     gap: 48px;
+    min-width: 440px;
 }
+
 .card{
     width: 648px;
 height: 154px;
@@ -159,6 +193,10 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 
+}
+
+.hehe{
+    min-width: 440px;
 }
 .slider{
     padding-top: 48px;
@@ -183,6 +221,10 @@ text-decoration-skip-ink: none;
 }
 img{
     width: 100%;
+}
+
+.chmod{
+    min-width: 440px;
 }
 
 .photos{
@@ -239,6 +281,7 @@ padding: 48px 0px 48px 0px;
 gap: 48px;
 border: 0px 0px 1px 0px;
 opacity: 0px;
+min-width: 440px;
 
 
 }
@@ -251,7 +294,7 @@ opacity: 0px;
     font-family: Bebas Neue;
 font-size: 48px;
 font-weight: 400;
-line-height: 52px;
+line-height: 70px;
 letter-spacing: -0.01em;
 text-align: center;
 text-underline-position: from-font;
@@ -402,13 +445,6 @@ padding-left: 6px;
 
 }
 
-
-
-
-
-
-
-
 .profile{
     width: 48px;
 height: 48px;
@@ -424,5 +460,439 @@ opacity: 0px;
 }
 
 
+.contact{
+    width: Fill (1,344px)px;
+height: Hug (700px)px;
+min-height: 700px;
+padding: 200px;
+gap: 48px;
+border-top: 2px solid black;
 
 
+min-width: 440px;
+
+}
+.verification{
+    width: Fixed (400px)px;
+height: Hug (296px)px;
+gap: 32px;
+opacity: 0px;
+
+
+
+
+}
+.con{
+    width: Fill (400px)px;
+height: Hug (80px)px;
+gap: 8px;
+
+
+margin: 30px;
+
+
+
+/* display: inline-flexbox; */
+
+
+
+
+}
+.con>h1{
+    font-family: Bebas Neue;
+font-size: 40px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.01em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+margin: 20px;
+
+display: flex;
+
+justify-content: center;
+align-items: center;
+
+}
+
+.con>p{
+    font-family: Roboto Mono;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+display: flex;
+
+justify-content: center;
+align-items: center;
+
+}
+
+.otp{
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+
+
+}
+
+.oo{
+    width: 56px;
+height: 60px;
+padding: 8px 16px 8px 16px;
+
+border-radius: 8px;
+border-top: 1px solid #000000;
+text-align: center;
+
+
+
+font-family: Roboto Mono;
+
+}
+
+
+.send{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+   
+}
+.sent{
+    width: 300px;
+    height: 30px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    background-color: #000000;
+    color: white;
+
+    font-family: Roboto Mono;
+    
+}
+.sent:hover{
+    background-color: white;
+    color: black;
+
+}
+.skip{
+    width: 300px;
+    height: 30px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    background-color: white;
+    color: black;
+    border: none;
+
+    font-family: Roboto Mono;
+}
+
+.last{
+
+    
+    opacity: 0px;
+    font-family: Bebas Neue;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    cursor: pointer;
+    margin-left: 43px;
+    
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+
+
+    margin-right: 10px;
+
+    margin-bottom: 20px;
+
+    min-width: 440px;
+
+}
+
+.back{
+    width: 150px;
+    height: 50px;
+
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    background-color: white;
+    color: black;
+
+    font-family: Roboto Mono;
+}
+
+
+
+@media (max-width: 480px) {
+    .nav {
+        font-size: 15px;
+        width: 100%;
+    }
+    
+    .contact-main-name {
+        flex-direction: column;
+    }
+    
+    .First-name, .Last-name {
+        width: 100%;
+    }
+    
+    .foot {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pro{
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    footer>.back{
+        margin-right: 30px;
+    }
+    /* .con>h1{
+        text-align: center;
+
+    } */
+    .con>p{
+        display: none;
+        /* font-size: 10px; */
+
+    }
+
+    
+    
+}
+@media (max-width: 440px){
+    .hero-image{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 1100px)
+{
+    .header-side-name{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .header-side-name{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 900px)
+{
+    .header-side-name{
+        display: none;
+    }
+
+    .nav-select{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 650px)
+{
+
+    .nav{
+        font-size: 15px;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+    }
+
+    .content1-heading{
+        font-size: 100px;
+    }
+
+    .contact-header-subhead-content{
+        font-size: 15px;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px)
+{
+
+   .action{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin:0;
+    padding:5px;
+   justify-content: space-around;
+
+   }
+   .nav-logo-text{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding:2px;
+    margin-right: 50px;
+
+   }
+   .nav{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding:2px;
+    
+   }
+
+
+
+
+
+    .content1-heading{
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 550px)
+{
+
+   
+    .header-name{
+        font-size:  25px;
+    }
+
+    .nav-select{
+        font-size: 12px;
+    }
+
+    .contact-main{
+        width: 70%;
+    }
+
+
+}
+
+@media only screen and (max-width: 500px)
+{
+
+    .First-name{
+        width: 45%;
+    }
+
+    .Last-name{
+        width: 45%;
+    }
+
+    .header-name{
+        font-size: 18px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 470px)
+{
+
+   .destination{
+    width: 100%;
+   }
+
+   .destination>img{
+    height: 80%;
+    width: 100%;
+   }
+
+   .content1-heading{
+    font-size: 60px;
+    }
+
+    .contact-header-subhead-content{
+        font-size: 10px;
+    }
+
+    .First-name{
+        width: 45%;
+    }
+
+    .Last-name{
+        width: 45%;
+    }
+    .contact-main-name{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        
+    }
+    .contact-header-subhead{
+        font-size:16px ;
+    }
+    .contact-header-head-getintouch{
+        font-size:1.5em;
+    }
+    .header{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        margin:10px 0 0 0;
+        font-size: 15px;
+    }
+    .nav-select{
+        display:none;
+    
+    }
+    .header-side {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header-side-name{
+        display: flex;
+        flex-wrap:wrap;
+        font-size: 11px;
+        margin: 10px;
+    }
+    .content1-heading{
+        font-size: 45px ;
+        margin:0px;
+        padding:0;
+        gap:0;
+    }  
+
+    section{
+        width: 100%;
+    }
+}
